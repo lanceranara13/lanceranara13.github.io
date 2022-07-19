@@ -1,26 +1,24 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Lance Steven Ranara",
+	title: "Hi all, I'm Lance",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"Hello! My name is Lance Steven Ranara, I currently have a Bachelor of Science in Computer Science degree. I'm trying to improve my skills, especially my problem-solving and programming skills by trying out different things.",
 	resumeLink:
 		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "lanceranara13",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	facebook: "https://www.facebook.com/lanceranara13",
+	github: "https://github.com/lanceranara13",
+	linkedin: "https://www.linkedin.com/in/lance-ranara-65719019a/",
 };
 
 export const skillsSection = {
@@ -140,56 +138,13 @@ export const skillsSection = {
 				},
 			],
 		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
-			],
-		},
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "Frontend", //Insert stack or technology you have experience in
+		progressPercentage: "60", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
@@ -197,48 +152,34 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "75",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Ateneo de Naga University",
+		subHeader: "Bachelor of Science in Computer Science",
+		duration: "June 2018 - May 2022",
+		// desc: "Participated in the research of XXX and published 3 papers.",
+		// descBullets: [
+		// 	"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
 	},
 ];
 
 export const experience = [
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
+		role: "Backend Developer",
+		company: "ThingsPH",
+		companylogo: "/img/icons/common/ThingsPH.jpg",
 		date: "Jan 2022 – Mar 2022",
 		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		// ],
-	},
-	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
 	},
 ];
 
@@ -273,14 +214,14 @@ export const projects = [
 ];
 
 export const feedbacks = [
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
+	// {
+	// 	name: "John Smith",
+	// 	feedback:
+	// 		"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+	// },
+	// {
+	// 	name: "John Smith",
+	// 	feedback:
+	// 		"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+	// },
 ];
