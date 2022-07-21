@@ -174,8 +174,8 @@ export const experience = [
 		role: "Backend Developer",
 		company: "ThingsPH",
 		companylogo: "/img/icons/common/ThingsPH.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		date: "July 2022 – August 2022",
+		desc: "I worked as a Backend developer on streamshot. Streamshot is a platform that handles the connection between CCTV cameras and the ThingsPH console. We built the API that connects the frontend and the server using NodeJS, NestJS, Typescript. I also helped the front-end developer in testing the system using Angular. ",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,31 +185,24 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		link: "https://atlasmart.netlify.app/",
+		name: "Minesweeper Game",
+		desc: "Terminal Minesweeper Game",
+		github: "https://github.com/lanceranara13/Minesweeper",
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		link: "https://technota.netlify.app/",
+		name: "Discord Bots",
+		desc: "Disord Music Bot",
+		github: "https://github.com/lanceranara13/DiscordBots",
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		link: "https://shopaza.herokuapp.com/",
+		name: "Socket Game",
+		desc: "2-Players Rock, Paper, Scissors Socket game",
+		github: "https://github.com/lanceranara13/Rock-Paper-Scissors-Two-player-using-Sockets-",
 	},
 	{
-		name: "MMFmelody (Blog)",
-		desc: "Here you will find amazing tips about health, beauty, and modern-day life.",
-		// github: "https://github.com/1hanzla100",
-		link: "https://mmfmelody.herokuapp.com/",
-	},
-	{
-		name: "Developer-Portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Online Judge Problems Solved",
+		desc: "C++ programs submitted solution to onlinejudge.org",
+		github: "https://github.com/lanceranara13/uva",
 	},
 ];
 
