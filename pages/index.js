@@ -21,8 +21,8 @@ export default function Home({ githubProfileData }) {
 				data={{
 					title: "Lance Steven Ranara",
 					description:
-						"A passionate Full Stack Web Developer and Blockchain Developer.",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+						"A portfolio website for Lance's development projects.",
+					image: "https://avatars.githubusercontent.com/u/7434470?v=4",
 					url: "",
 					keywords: [
 
