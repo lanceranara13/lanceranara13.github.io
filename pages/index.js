@@ -23,7 +23,7 @@ export default function Home({ githubProfileData }) {
 					description:
 						"A portfolio website for Lance's development projects.",
 					image: "https://avatars.githubusercontent.com/u/7434470?v=4",
-					url: "",
+					url: "https://avatars.githubusercontent.com/u/7434470?v=4",
 					keywords: [
 
 					],
